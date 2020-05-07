@@ -5,8 +5,6 @@ body {
   font-size: 14px;
 }
 
-
-
 .cs_primary{
   background-color: #F3F5F9;
 }
@@ -22,7 +20,6 @@ body {
   background-color: #031C4E;
 }
 /* End General Style Rules */
-
 
 /*** HEADER ***/
 
@@ -72,18 +69,72 @@ nav ul {
 }
 /** END NAVBAR **/
 
-/** HERO **/
+/** JUMBO **/
+.jumbotron {
+  background-image: url("../img/bg-header.jpg");
+  background-size: cover;
+}
+.cs_text {
+  margin: 30px auto;
+  color: white;
+}
 
-/** END HERO **/
+.cs_form {
+  /* width: 450px; */
+  margin: 30px auto;
+  padding: 30px;
+  background-color: white;
+  border-radius: 5px;
+}
+.cs_form .cs_cta-text {
+  color: #4690ff;
+  margin-top: 5px;
+}
 
+/* Form Buttons */
+.cs_form .cs_button {
+  margin: 10px 0;
+  padding: 10px 0;
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 0px 0px 20px -11px rgba(0,0,0,0.7);
+}
+.cs_form .cs_button:hover {
+  box-shadow: 0px 0px 25px -11px rgba(0,0,0,0.7);
+}
+
+.cs_form .cs_button_account {
+  background-color: #4690ff;
+  border: 1px solid #4690ff;
+}
+.cs_form .cs_button_account a{
+  color: white;
+}
+
+.cs_form .cs_button_google {
+  background-color: white;
+  border: 1px solid white;
+}
+.cs_form .cs_button_google img {
+  height: 15px;
+  float: left;
+  margin-left: 10px;
+}
+.cs_form .cs_button_google a{
+  color: #6f6f6f;
+  margin-left: -25px;
+}
+
+.cs_form .disclaimer {
+  margin-top: 5px;
+}
+/* End Form Buttons */
+/** END JUMBO **/
 /*** END HEADER ***/
 
 
-/*** HEADER ***/
-
 /* FOOTER */
 .cs_footer{
-  height: 250vh;
 }
 
 /* END NAVBAR */
