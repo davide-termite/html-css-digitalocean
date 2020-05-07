@@ -92,28 +92,87 @@
 
     <main>
       <!-- Partners' Logos -->
-      <section class="cs_partners cs_primary">
-
+      <section id="partners" class="cs_partners cs_primary">
+        <div class="container">
+          <div class="row text-center col-xs-12">
+            <h4>Innovative businesses trust DigitalOcean</h4>
+            <div class="cs_partner_logos">
+              <ul class="list-inline">
+                <li><img src="img/partners/docker.png" alt="docker Logo"></li>
+                <li><img src="img/partners/gitlab.png" alt="gitlab Logo"></li>
+                <li><img src="img/partners/slack.png" alt="slack Logo"></li>
+                <li><img src="img/partners/hashi.png" alt="hashi Logo"></li>
+                <li><img src="img/partners/hashi.png" alt="hashi Logo"></li>
+                <li><img src="img/partners/splunk.png" alt="splunk Logo"></li>
+              </ul>
+            </div>
+            <a href="#">View customers stories ></a>
+          </div>
+        </div>
       </section>
       <!-- Services -->
-      <section class="cs_services cs_secondary">
+      <section id="services" class="cs_services cs_secondary">
 
       </section>
       <!-- First Slider -->
-      <section class="cs_slider-first cs_primary">
-
+      <section id="first-slider" class="cs_primary">
+        <div class="cs_slider container text-center">
+          <h3>Designed for developers</h3>
+          <p>Build more and spend less time managing your infrastructure with our
+             easy-to-use control panel and API.</p>
+          <div class="cs_container">
+            <i class="fas fa-chevron-left"></i>
+            <img src="img/slides/slide_1.jpg" alt="Slide">
+            <i class="fas fa-chevron-right"></i>
+          </div>
+          <h5>Create computer server in 55 seconds or less</h5>
+          <div class="cs_dots">
+            <ul class="list-inline">
+              <li class="active"><i class="fas fa-circle"></i></li>
+              <li><i class="far fa-circle"></i></li>
+              <li><i class="far fa-circle"></i></li>
+              <li><i class="far fa-circle"></i></li>
+            </ul>
+          </div>
+        </div>
       </section>
       <!-- Features-->
-      <section class="cs_features cs_tertiary">
+      <section id="features" class="cs_features cs_secondary">
+
+      </section>
+      <!-- Regions -->
+      <section id="features" class="cs_features cs_tertiary">
 
       </section>
       <!-- Second Slider-->
-      <section class="cs_slider-second cs_primary">
-
+      <section id="second-slider" class="cs_primary">
+        <div class="cs_slider container text-center">
+          <h3>Developement teams love DigitalOcean</h3>
+          <div class="cs_container">
+            <i class="fas fa-chevron-left"></i>
+            <div class="testimonial">
+              <img src="img/slides/rockerbox.png" alt="Logo rockerbox">
+              <p>"We have been able to make the scaling of the technical infrstructure of our
+                  business cost effective and efficient"</p>
+              <h6 class="author"> Rick O'Toole</h6>
+              <h6>Co-founder and CTO</h6>
+              <a href="#">Read story ></a>
+            </div>
+            <i class="fas fa-chevron-right"></i>
+          </div>
+          <div class="cs_dots">
+            <ul class="list-inline">
+              <li class="active"><i class="fas fa-circle"></i></li>
+              <li><i class="far fa-circle"></i></li>
+              <li><i class="far fa-circle"></i></li>
+            </ul>
+          </div>
+        </div>
       </section>
       <!-- CTA Section-->
-      <section class="cs_cta_section cs_tertiary">
-
+      <section id="cta" class="cs_cta-section cs_tertiary text-center">
+        <h2>Get started now.</h2>
+        <button class="cs_cta-btn"><a href="#">Create your account</a></button>
       </section>
     </main>
 
@@ -121,7 +180,9 @@
       <div class="container">
         <div class="row cs_footer">
           <div class="col-xs-12 col-sm-12 col-md-4">
-            <div class="cs_logo"><img src="img/logos/logo-small.svg" alt="Logo Small"></div>
+            <div class="cs_logo">
+              <img src="img/logos/logo-small.svg" alt="Logo Small">
+            </div>
             <div class="cs_legal">
               <span>&copy; DigitalOcean, LLC. All rights reserved.</span>
               <p>Proudly made in NY</p>
