@@ -1,0 +1,15 @@
+/* General Style Rules */
+.cs_primary{
+  background-color: #F3F5F9;
+}
+.cs_secondary{
+  background-color: #FFF;
+}
+.cs_tertiary{
+  background: rgb(2,0,36);
+  background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(0,66,188,1) 100%);
+}
+.cs_footer{
+  background-color: #031C4E;
+}
+/* End General Style Rules */
