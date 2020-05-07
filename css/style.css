@@ -4,7 +4,9 @@ body {
   font-family: "Roboto", sans-serif !important;
   font-size: 14px;
 }
-
+ol, ul {
+  list-style: none;
+}
 .cs_primary{
   background-color: #F3F5F9;
 }
@@ -16,9 +18,7 @@ body {
   background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(0,66,188,1) 100%);
   color: white;
 }
-.cs_footer{
-  background-color: #031C4E;
-}
+
 /* End General Style Rules */
 
 /*** HEADER ***/
@@ -134,13 +134,34 @@ nav ul {
 
 
 /* FOOTER */
-.cs_footer{
+footer {
+  background-color: #031C4E;
 }
-
-/* END NAVBAR */
-
-/* HERO */
-
-/* END HERO */
-
-/*** END HEADER ***/
+.cs_footer {
+  margin: 70px auto;
+}
+.cs_legal {
+  margin-top: 20px;
+}
+.cs_legal span{
+  color: rgba(255,255,255,0.4);
+}
+.cs_legal p{
+  color: rgba(255,255,255,0.2);
+}
+.cs_footer li {
+  margin-top: 5px;
+}
+.cs_footer li h4{
+  margin-bottom: 20px;
+  color: white
+}
+.cs_footer li a{
+  color: rgba(255,255,255,0.4);
+}
+.cs_footer li a:hover{
+  text-decoration: none;
+  color: rgba(255,255,255,0.8);
+  transition: 0.1s;
+}
+/* END FOOTER */
