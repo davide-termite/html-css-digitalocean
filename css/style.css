@@ -1,4 +1,12 @@
 /* General Style Rules */
+body {
+  padding-top: 65px;
+  font-family: "Roboto", sans-serif !important;
+  font-size: 14px;
+}
+
+
+
 .cs_primary{
   background-color: #F3F5F9;
 }
@@ -8,8 +16,80 @@
 .cs_tertiary{
   background: rgb(2,0,36);
   background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(0,66,188,1) 100%);
+  color: white;
 }
 .cs_footer{
   background-color: #031C4E;
 }
 /* End General Style Rules */
+
+
+/*** HEADER ***/
+
+/** NAVBAR **/
+/* Nav General */
+nav {
+  max-height: 65px;
+  width: 100%;
+}
+nav ul {
+  margin-bottom: 0;
+}
+.navbar-default {
+  background-color: #fff!important;
+}
+
+/* Logo */
+.cs_navbar{
+  background: #fff;
+  line-height: 65px;
+}
+.cs_navbar .logo img{
+  height: 30px;
+}
+.cs_burger i{
+  color: #4690ff;
+}
+
+/* Menu */
+.cs_menu ul li {
+  margin-left: 10px;
+}
+.cs_menu a{
+  color: #172e5a;
+  font-weight: 500;
+}
+.cs_menu i {
+  margin-left: 3px;
+}
+.cs_menu a:hover {
+  text-decoration: none;
+}
+.cs_menu .btn-default {
+  color: #4690ff;
+  background-color: #fff;
+  border-color: #4690ff;
+}
+/** END NAVBAR **/
+
+/** HERO **/
+
+/** END HERO **/
+
+/*** END HEADER ***/
+
+
+/*** HEADER ***/
+
+/* FOOTER */
+.cs_footer{
+  height: 250vh;
+}
+
+/* END NAVBAR */
+
+/* HERO */
+
+/* END HERO */
+
+/*** END HEADER ***/
